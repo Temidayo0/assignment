@@ -1,0 +1,25 @@
+body{
+    
+    width: 400PX;
+    height:500px;
+    background: grey;
+    border-radius: 50px;
+
+
+
+
+}
+form{
+    height:350px;
+    width:400px;
+    background-position: 50px 50px;
+    background-attachment: fixed;
+    background: blue;
+    opacity:;
+    text-align: center;
+    margin-left: 350px;
+    padding-top: 50px;
+    color: red;
+
+
+}

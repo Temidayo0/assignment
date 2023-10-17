@@ -1,0 +1,43 @@
+ul{
+    /*background: rgba(255, 0, 0, 0.4);*/
+
+    list-style-type: disc;
+
+    
+}
+ol{
+   list-style-type: upper-alpha;
+}
+table{
+    border: 10px inset green;
+    border-collapse: no-collapse;
+    border-spacing: 20px;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+    background: red;
+    text-align: center;
+    border: 6px groove blue;
+    box-shadow:  inset 0px 0px 20px  purple;
+} 
+form{
+    background: blue;
+
+}
+input{
+    /*height: 50px;
+    width:300px;
+    padding: 0px 20px 0px 5px;
+    outline: none;
+    border: none;
+    font-size: 30px;*/
+}
+input:focus{
+    border: 1px solid red;
+    background-color: green;
+}
+input:
