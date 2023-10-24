@@ -9,7 +9,7 @@ ol{
    list-style-type: upper-alpha;
 }
 table{
-    border: 10px inset green;
+    /*(border: 10px inset green;
     border-collapse: no-collapse;
     border-spacing: 20px;
 }
