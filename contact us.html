@@ -27,7 +27,7 @@
         }
 
         .navbar {
-            width:85%;
+            width: 85%;
             margin: auto;
             padding: 35px 0px;
             display: flex;
@@ -35,8 +35,8 @@
             justify-content: space-between;
         }
 
-        .logo{
-            width:40px;
+        .logo {
+            width: 40px;
             cursor: pointer;
 
         }
@@ -56,30 +56,71 @@
 
 
         form {
-            /*text-align: center;
             text-indent: 20px;
             font-style: normal;
             font-family: algerian, serif;
             padding-top: 20px;
-            color: white;*/
+            color: white;
         }
 
         #ojiji {
             background: blue;
             color: white;
-            font-size: 50px;
+            font-size: 30px;
 
-        }
-        .kk {
-            background: purple;
-            width: 500px;
-            height: 500px;
-            margin-left: 400px;
-            border: 50px groove darkmagenta;
         }
 
         #OUR {
             border-radius: 30px;
+        }
+
+        #oloj {
+            margin-bottom: 40px;
+        }
+
+        button {
+            margin-left: 500px;
+            border-radius: 20px;
+            background: rgb(31, 3, 31);
+            color: white;
+        }
+
+        form {
+            background: rgb(243, 154, 243);
+            width: 550px;
+            margin-left: 30%;
+            padding: 20px;
+            outline: none;
+        }
+
+        #mm {
+            width: 145%;
+        }
+
+        #phone {
+            width: 145%;
+        }
+
+        #mail {
+            width: 260%;
+        }
+
+        #ola {
+            height: 90px;
+            margin-top: 70px;
+        }
+
+        #eni {
+            width: 260%;
+        }
+
+        #big {
+            width: 260%;
+            height: 100px;
+        }
+
+        #ol {
+            opacity: 0.5;
         }
     </style>
 </head>
@@ -87,9 +128,9 @@
 <body>
     <div class="banner">
         <div class="navbar">
-            <h1> <a href="good.html"><i class="fa-solid fa-house" id="logo"></i></a> VALUEMAX </h1>
+            <h1> <a href="index.html"><i class="fa-solid fa-house" id="logo"></i></a> VALUEMAX </h1>
             <ul>
-                <li> <a href="good.html">Home</a></li>
+                <li> <a href="index.html">Home</a></li>
                 <!--<li> <a href="ABOUT US.html"> About Us</a></li>-->
 
                 <a href="ABOUT US.html"><abbr title=".Management
@@ -103,38 +144,115 @@
             </ul>
         </div>
     </div>
-    <img src="img/contact 1.png" alt="" width="100%" height="400px">
-    <div class="kk">
-        <form>
-            <label for="name" id="GOD">First name</label>
-            <input type="text" id="idd"><br></br>
-            <label for="name" id="Is" aria-placeholder="">Last name</label>
-            <input type="name" id="idd"><br></br>
-            <h1>Gender:</h1>
-            <input type="checkbox">
-            <label for="name" id="">FMALE</label>
-            <input type="checkbox">
-            <label for="name" id=""> Male</label>
-            <input type="checkbox" id="">
-            <label for="name" id="">Custom</label><br></br>
-            <label for="name" id="OUR">Email/Phone Number:</label>
-            <input type="text" id="OUR"><br></br>
-            <label for="name" id="">Password</label>
-            <input type="text" id="OUR">
-            <p>Or</p>
-            <input type="submit" name="Sign Up With Facebook" value="Sign Up With Facebook" id="ojiji"><br></br>
-            <a href="#">Create a new account</a>
+    <img src="img/contact 1.png" alt="" width="100%" height="400px" id="oloj">
 
+    <form>
+        <h1>Businessn Registration</h1>
+        <table>
+            <tr>
+                <td>
+                    <label>first Name</label>
+                </td>
+                <td>
+                    <label for="text">Last Name</label>
+                </td>
 
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="ma">
+                </td>
 
+                <td>
+                    <input type="text" id="ma">
+                </td>
+            </tr>
 
+            <tr>
+                <td>
+                    <label>Business Name</label>
+                </td>
 
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" id="mm">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Phone Number</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="number" placeholder="+2349041802979" id="phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>E- mail</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="mail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Business Address</label>
 
-        </form>
-    </div>
-</body>
+                </td>
 
-</html>
+                <td>
+                    <label for="text"> City</label>
+                </td>
+                <td>
+                    <label for="text">State</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="" id="ola" cols="20" rows="5"></textarea>
+                </td>
+
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Business Descriptive</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="" id="big" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Business">Business Structure</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="eni" placeholder="Select Option">
+                </td>
+            </tr>
+
+        </table>
+        <p>Upload relevant document</p>
+        <input type="file" id="ol">
+        <button id="olo">
+            submit
+        </button>
+    </form>
 </body>
 
 </html>
