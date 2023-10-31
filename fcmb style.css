@@ -50,6 +50,8 @@ body{
 .to{
     margin-left: 100px;
     font-family:Arial, Helvetica, sans-serif;
+    border-left: 5px  solid yellow;
+    padding: 0px 0px 0px 10px;
 }
 .tee{
     margin-left: 100px;
