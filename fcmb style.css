@@ -1,0 +1,230 @@
+body{
+    overflow-x: hidden;
+}
+.caveat{
+    background: blue;
+    font-size: 40px;
+    text-align: center;
+}
+
+.oo{
+    width: 150px;
+}
+.img{
+    width: 100%;
+}
+.ii{
+    margin-right: 15px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.lll{
+    background-color: rgb(184, 13, 184);
+    
+}
+.ob{
+    background: white;
+}
+.ll{
+    background-color: yellow;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 70px;
+    padding-top: 2px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.oooo{
+    background: white;
+    padding: 5px;
+    border-radius: 25px;
+}
+.to{
+    margin-left: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.tee{
+    margin-left: 100px;
+}
+.pppp{
+    color: red;
+}
+input[type="text"]{
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+
+}
+.pass{
+    margin-left:-5%;
+}
+.for{
+    width: 95%;
+    height: 350px;
+    flex-direction: row;
+    display: flex;
+    margin-left:5%;
+}
+.oj{
+    background: purple;
+    margin-right: 20px;
+    width: 50%;
+    padding: 5px;
+}
+table{
+    background: white;
+    width: 100%;
+     
+
+}
+.form h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    background-color: red;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btrn{
+    background: gold;
+    cursor: pointer;
+    color: white;
+}
+.btrn:hover{
+    background: white;
+
+}
+.btrn a{
+    text-decoration: none;
+    color: black
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color:gold;
+}
+a{
+    text-decoration: none;
+}
+.mmo{
+    width:30%;
+    margin-right: 20px;
+}
+.bvbv{
+    background-color:burlywood;
+    padding-left: 10px;
+    width: 60%;
+    margin-right: 20px;
+}
+.xxx{
+    width: 40px;
+   
+}
+.bzbz{
+    width: 100%;
+    margin-left:250px;
+}
+button{
+    background: goldenrod;
+}
+.bbbb{
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: row;
+    padding-top:5px;
+    margin-top: 10px;
+    margin-left: 500px;
+    width: fit-content;
+    margin-right: 0px auto;
+}
+.wa{
+    background: orange;
+    width:fit-content ;
+    padding: 10px;
+}
+.vvg{
+    background: goldenrod;
+    margin-left: 200px;
+}
+.home{
+    width: 50px;
+}
+.ile{
+    width: 100%;
+}
+.mmoc{
+    width: 50px;
+}
+.mouse{
+    width: 100%;
+}
+.teli{
+    width: 50px;
+}
+.phone{
+    width: 100%;
+}
+
+.icon{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+#kk{
+    color: green;
+    margin-top: 30px;
+    padding: 10px;
+}
+#nn{
+    color: maroon;
+    margin-top: 30px;
+    padding: 10px;
+}
+#gt{
+    color: blue;
+    margin-top: 30px;
+    padding: 10px;
+}
+#ii{
+    color: darkred;
+    margin-top: 30px;
+    padding: 10px;
+}
+#ff{
+    color: blue;
+    margin-top: 30px;
+    padding: 10px;
+}
+.aye{
+    margin-right: 25px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.ollo{
+    background: black;
+    margin-bottom: 50px;
+}
+.ollo{
+    color: white;
+    text-align: center;
+}
