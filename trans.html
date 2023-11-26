@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            background-color: blue;
+            width: fit-content;
+            margin: 5px;
+            padding: 15px;
+            border-radius: 5px;
+            list-style-type: none;
+            display: inline;
+
+
+
+            transition-property: background padding color;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+
+        }
+
+        li:hover {
+            background-color: blue;
+            padding: 20px;
+            color: aliceblue;
+            margin-left: 50px;
+            transform: translate(50px 54px);
+            /* transform: scale(2); */
+
+        }
+
+        .star {
+            padding: 20px;
+            border-radius: 35px;
+            background-color: RED;
+            color: white;
+            transform: translate(50px, 10px);
+            transform: scale(1);
+        }
+
+        .popo {
+            margin-left: 200px;
+            margin-top: 20px;
+            font-size: 50px;
+            transform: skewX(50deg);
+        }
+
+        .MIMI {
+            font-size: 50px;
+            background-color: yellowgreen;
+
+        }
+
+        .pkk {
+            padding: 100px;
+            margin-bottom: 50px;
+            height: 500px;
+
+            background: linear-gradient(30deg, red, orangered, yellow, green, blue);
+        }
+
+        .lolo {
+            padding: 200px;
+            height: 500px;
+
+            background: radial-gradient(circle, purple, hotpink, red, orangered, yellow, green, blue);
+        }
+
+        .nn {
+            margin-top: 32px;
+            padding: 100px;
+            height: 500px;
+
+            background: repeating-radial-gradient(circle, red 20%, blue 30%);
+        }
+
+        /* .opo{ 
+            background:linear-gradient(90deg, rgb(255, 0, 0),rgba(255, 0, 0,0.3),rgba(255,0, 0,0.0) );
+            padding: 100px;
+            margin-top: 50px;
+        } */
+
+
+        .llo {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: red;
+            text-align: center;
+            padding: 30px;
+            border-radius: 20px;
+        }
+
+
+        .do {
+            width: 40px;
+        }
+
+        .obo {
+            width: 100%;
+        }
+
+        .opo button {
+            background-color: green;
+            color: white;
+            padding: 20px 20px;
+
+        }
+
+        .money button {
+            background-color: blue;
+            color: white;
+            padding: 20px 20px;
+
+        }
+
+        .money {
+            visibility: hidden;
+            position: absolute;
+
+        }
+
+        @media screen and (max-width:768px) {
+            ul {
+                text-align: center;
+                margin: 0px auto;
+            }
+
+            li {
+                background-color: red;
+                display: block;
+            }
+
+            .opo {
+                visibility: hidden;
+                position: absolute;
+            }
+
+            .money {
+                visibility: visible;
+                position: relative;
+
+            }
+
+
+        }
+
+        .ogun {
+            width: 100px;
+            animation: mafo 1s linear 0s infinite;
+        }
+
+        .lklk {
+            width: 50px;
+            animation: mafo 1s linear 0s infinite;
+        }
+
+        .oi {
+            width: 100%;
+        }
+
+        @keyframes mafo {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul id="mv">
+            <li style="color: red; text-decoration: underline;">NAVBAR</li>
+            <li id="lio" > <a href="index.html">HOME</a></li>
+            <li id="lio" > <a href="ABOUT US.html">ABOUT</a></li>
+            <li id="lio" > <a href="service.html">SERVICE</a></li>
+            <li id="lio" > <a href="contact us.html">CONTACT</a></li>
+            <li id="lio" > <a href="mice money.html">webpage</a></li>
+            <li id="lio" > <a href="nav dropdown.html">Feedback</a></li>
+            <li id="lio" ><a href="BOOSFCMB.html">BOOStrap</a></li>
+            <li id="lio" ><a href="game.html">ludo</a></li>
+            <li id="lio" > <a href="fcmd.html">FCMB</a></li>
+            <li id="lio" ><a href="table.html">HIRE ME</a></li>
+            <li><a href="trans.html">trans</a></li>
+            <li><a href="TABLE TAG.html">TabLe</a></li>
+            <li><a href="pseudo classes.html">class ass</a></li>
+            <li><a href="newwork.html">marqu</a></li>
+            <li><a href="news.html">workdone</a></li>
+            <li><a href="New css.html">CSS</a></li>
+        </ul>
+    </div>
+    <button class="star">
+        START
+    </button>
+    <button class="popo">
+        🚓
+    </button>
+    <ul>
+        <li>OYIN</li>
+        <li>SEUN</li>
+        <li>IKIMAT</li>
+        <li>FAVOUR</li>
+        <li>ESTER</li>
+        <li>TEMIDAYO</li>
+        <li>EMMANUEL</li>
+        <li>TOLULOPE</li>
+        <!-- <li>ERUSOPE</li> -->
+        <!-- <li>ORISATOLA</li> -->
+    </ul>
+    <button class="MIMI">MICE MONEY</button>
+    <div class="pkk"></div>
+    <div class="lolo"></div>
+    <div class="nn">
+        <audio controls>
+            <source src="MohBad_-_Tiff_Audio_.mp3">
+        </audio>
+        <audio controls>
+            <source src="Young_Jonn_Dada.mp3">
+        </audio>
+        <marquee behavior="" direction="">
+            <div class="lklk">
+                <img src="baba2.jpg" alt="" class="oi">
+            </div>
+        </marquee>
+        <div class="llo">
+            <div class="do">
+                <img src="img/fcmb logo 1.png" alt="" class="obo">
+            </div>
+            <div class="opo">
+                <button>MICE</button>
+            </div>
+            <div class="money">
+                <button>money</button>
+            </div>
+        </div>
+    </div>
+    <div class="opo">
+
+    </div>
+    <button></button>
+
+
+
+    <div class="llo">
+        <div class="do">
+            <img src="img/fcmb logo 1.png" alt="" class="obo">
+        </div>
+        <div class="opo">
+            <button>MICE</button>
+        </div>
+        <div class="money">
+            <button>money</button>
+        </div>
+    </div>
+
+    <marquee behavior="" direction="right">
+        <div>
+            <img src="img/FB_IMG_16921707446226712.jpg" class="ogun">
+        </div>
+    </marquee>
+
+</body>
+
+</html>
